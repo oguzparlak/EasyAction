@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint EasyAction.podspec' to ensure this is a
+#  Be sure to run `pod spec lint EasyActionBuilder.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "EasyAction"
+  spec.name         = "EasyActionBuilder"
   spec.version      = "0.0.1"
   spec.summary      = "Easy way to create alerts in iOS"
-  spec.description  = "You can create alerts easily with EasyAction"
+  spec.description  = "You can create alerts easily with EasyActionBuilder"
   spec.homepage     = "https://github.com/oguzparlak/EasyAction"
   spec.license      = { :type => "MIT", :text => "MIT License. Copyright (c) 2019 Oguz Parlak" }
   spec.author       = { "Oguz Parlak" => "oguz.parlak@ozu.edu.tr" }
