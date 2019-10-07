@@ -17,7 +17,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "Oguz Parlak" => "oguz.parlak@ozu.edu.tr" }
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
-  spec.ios.vendored_frameworks = "EasyAction.framework"
   spec.source       = { :git => "https://github.com/oguzparlak/EasyAction.git", :tag => spec.version.to_s }
   spec.source_files  = "EasyAction", "~/**/*"
   spec.frameworks = "UIKit"
