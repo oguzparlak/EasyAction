@@ -21,6 +21,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = 'EasyAction/Lib/*.swift', 'EasyAction/Extensions/*.swift'
   spec.frameworks = "UIKit"
   spec.requires_arc = true
+  spec.swift_versions = ['4.0', '5.0']
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
