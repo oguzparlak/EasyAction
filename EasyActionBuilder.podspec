@@ -18,7 +18,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "9.0"
   spec.ios.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/oguzparlak/EasyAction.git", :tag => spec.version.to_s }
-  spec.source_files  = "EasyAction", "~/**/*"
+  spec.source_files  = 'EasyAction/Lib/*.swift', 'EasyAction/Extensions/*.swift'
   spec.frameworks = "UIKit"
   spec.requires_arc = true
 
