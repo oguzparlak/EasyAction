@@ -42,7 +42,8 @@ ActionSheetBuilder(title: "", message: "Choose a color")
 
 ## Detailed Usage
 
-### Action Handlers
+### Action Handlers
+
 ``` Swift
 AlertBuilder(title: "Location", message: "This app needs your permission to use your location")
     .addAction("Allow When using the App", {
@@ -94,9 +95,10 @@ ActionSheetBuilder(title: "Select", message: "Select your favorite singer")
     .show()
 ```
 
-## iPad Configurations for ActionSheet
+### iPad Configurations for ActionSheet
 
 When you want to present your ActionSheet on iPad, the ActionSheet needs to know where It is presenting from. This can be achieved by using `setBarButtonItem` or `setPresentingSource` methods. The app will never crashes if you don't use them. Also you may want to use `show(in: Position)` method. 
+
 
 ``` Swift
 ActionSheetBuilder(title: "Add", message: "Add Alarm")
